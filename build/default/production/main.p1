@@ -2,7 +2,27 @@ Version 3.2 HI-TECH Software Intermediate Code
 [p mainexit ]
 "28 main.c
 [v _mcu_init `(i ~T0 @X0 0 ef ]
-"2575 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
+"7177 C:\Program Files\Microchip\xc8\v1.33\include\pic18f4550.h
+[s S444 :4 `uc 1 :2 `uc 1 ]
+[n S444 . PCFG VCFG ]
+"7181
+[s S445 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S445 . PCFG0 PCFG1 PCFG2 PCFG3 VCFG0 VCFG1 ]
+"7189
+[s S446 :3 `uc 1 :1 `uc 1 ]
+[n S446 . . CHSN3 ]
+"7193
+[s S447 :4 `uc 1 :1 `uc 1 ]
+[n S447 . . VCFG01 ]
+"7197
+[s S448 :5 `uc 1 :1 `uc 1 ]
+[n S448 . . VCFG11 ]
+"7176
+[u S443 `S444 1 `S445 1 `S446 1 `S447 1 `S448 1 ]
+[n S443 . . . . . . ]
+"7202
+[v _ADCON1bits `VS443 ~T0 @X0 0 e@4033 ]
+"2575
 [s S193 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S193 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 ]
 "2584
@@ -5076,69 +5096,72 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 28: mcu_init();
 "28
 [e ( _mcu_init ..  ]
-[; ;main.c: 29: PORTAbits.RA0 = 1;
+[; ;main.c: 29: ADCON1bits.PCFG=0b1111;
 "29
+[e = . . _ADCON1bits 0 0 -> -> 15 `i `uc ]
+[; ;main.c: 30: PORTAbits.RA0 = 1;
+"30
 [e = . . _PORTAbits 0 0 -> -> 1 `i `uc ]
-[; ;main.c: 32: while(1){
-"32
+[; ;main.c: 33: while(1){
+"33
 [e :U 600 ]
 {
-"33
+"34
 [v _a `d ~T0 @X0 1 a ]
 [v _b `d ~T0 @X0 1 a ]
-"34
+"35
 [v _sensed `i ~T0 @X0 1 a ]
-[; ;main.c: 33: double a, b;
-[; ;main.c: 34: int sensed;
-[; ;main.c: 37: sensed = getCNY70Value();
-"37
-[e = _sensed ( _getCNY70Value ..  ]
-[; ;main.c: 38: a = fuzzy_system_single1(sensed);
+[; ;main.c: 34: double a, b;
+[; ;main.c: 35: int sensed;
+[; ;main.c: 38: sensed = getCNY70Value();
 "38
-[e = _a ( _fuzzy_system_single1 (1 -> _sensed `d ]
-[; ;main.c: 39: b = fuzzy_system_single2(sensed);
+[e = _sensed ( _getCNY70Value ..  ]
+[; ;main.c: 39: a = fuzzy_system_single1(sensed);
 "39
+[e = _a ( _fuzzy_system_single1 (1 -> _sensed `d ]
+[; ;main.c: 40: b = fuzzy_system_single2(sensed);
+"40
 [e = _b ( _fuzzy_system_single2 (1 -> _sensed `d ]
-[; ;main.c: 41: if(PORTBbits.RB2 == 1 && PORTBbits.RB3 == 1 && PORTBbits.RB0 == 1 && PORTBbits.RB4 == 1 && PORTBbits.RB1 == 1){
-"41
+[; ;main.c: 42: if(PORTBbits.RB2 == 1 && PORTBbits.RB3 == 1 && PORTBbits.RB0 == 1 && PORTBbits.RB4 == 1 && PORTBbits.RB1 == 1){
+"42
 [e $ ! && && && && == -> . . _PORTBbits 0 2 `i -> 1 `i == -> . . _PORTBbits 0 3 `i -> 1 `i == -> . . _PORTBbits 0 0 `i -> 1 `i == -> . . _PORTBbits 0 4 `i -> 1 `i == -> . . _PORTBbits 0 1 `i -> 1 `i 602  ]
 {
-[; ;main.c: 42: go_back(100,100);
-"42
-[e ( _go_back (2 , -> -> 100 `i `uc -> -> 100 `i `uc ]
+[; ;main.c: 43: go_back(100,100);
 "43
-}
-[; ;main.c: 43: }
-[e $U 603  ]
+[e ( _go_back (2 , -> -> 100 `i `uc -> -> 100 `i `uc ]
 "44
-[e :U 602 ]
-[; ;main.c: 44: else{
-{
-[; ;main.c: 45: motor_forward();
+}
+[; ;main.c: 44: }
+[e $U 603  ]
 "45
-[e ( _motor_forward ..  ]
-[; ;main.c: 46: PWM_DutyCycle1(a);
+[e :U 602 ]
+[; ;main.c: 45: else{
+{
+[; ;main.c: 46: motor_forward();
 "46
-[e ( _PWM_DutyCycle1 (1 -> _a `uc ]
-[; ;main.c: 47: PWM_DutyCycle1(b);
+[e ( _motor_forward ..  ]
+[; ;main.c: 47: PWM_DutyCycle1(a);
 "47
-[e ( _PWM_DutyCycle1 (1 -> _b `uc ]
+[e ( _PWM_DutyCycle1 (1 -> _a `uc ]
+[; ;main.c: 48: PWM_DutyCycle1(b);
 "48
+[e ( _PWM_DutyCycle1 (1 -> _b `uc ]
+"49
 }
 [e :U 603 ]
-"52
+"53
 }
 [e :U 599 ]
-"32
+"33
 [e $U 600  ]
 [e :U 601 ]
-[; ;main.c: 48: }
-[; ;main.c: 52: }
-[; ;main.c: 54: return 0;
-"54
+[; ;main.c: 49: }
+[; ;main.c: 53: }
+[; ;main.c: 55: return 0;
+"55
 [e ) -> 0 `i ]
 [e $UE 598  ]
-[; ;main.c: 55: }
-"55
+[; ;main.c: 56: }
+"56
 [e :UE 598 ]
 }

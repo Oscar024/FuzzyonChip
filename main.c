@@ -26,6 +26,7 @@ int main()
 {
 
   mcu_init();
+  ADCON1bits.PCFG=0b1111;
   PORTAbits.RA0 = 1;
   
   
