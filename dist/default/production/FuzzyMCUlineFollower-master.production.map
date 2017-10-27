@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v1.33\dat\en_msgs.txt -cs \
   -h+dist/default/production\FuzzyMCUlineFollower-master.production.sym \
   --cmf=dist/default/production\FuzzyMCUlineFollower-master.production.cmf \
-  -z -Q18F4550 -oC:\Users\MCC\AppData\Local\Temp\s46k.6 \
+  -z -Q18F4550 -oC:\Users\MCC\AppData\Local\Temp\s44o.6 \
   -Mdist/default/production/FuzzyMCUlineFollower-master.production.map -E1 \
   -ver=XC8 -ASTACK=06F0h-07ffh -pstack=STACK -ACODE=00h-07FFFh \
   -ACONST=00h-07FFFh -ASMALLCONST=0800h-08FFhx120 \
@@ -23,7 +23,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE \
-  C:\Users\MCC\AppData\Local\Temp\s46k.obj \
+  C:\Users\MCC\AppData\Local\Temp\s44o.obj \
   dist/default/production\FuzzyMCUlineFollower-master.production.obj 
 
 Object code version is 3.11
@@ -36,7 +36,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\MCC\AppData\Local\Temp\s46k.obj
+C:\Users\MCC\AppData\Local\Temp\s44o.obj
                 end_init                              0        0        4        0       0
                 idloc                            200000   200000        8   200000       0
                 config                           300000   300000        E   300000       0
@@ -749,8 +749,8 @@ _go_back                                text7        0065DE
 _i                                      bssBANK0     0000F1
 _linspace                               text24       006F8A
 _main                                   text0        006E96
-_main$1522                              cstackBANK0  0000E7
-_main$1523                              cstackBANK0  0000EA
+_main$1523                              cstackBANK0  0000E7
+_main$1524                              cstackBANK0  0000EA
 _mcu_init                               text2        006922
 _motor_Backforward                      text8        0065B8
 _motor_forward                          text1        0065C2
@@ -854,7 +854,7 @@ FUNCTION INFORMATION:
   a               3  129[BANK0 ] PTR 
   sensed          2  141[BANK0 ] int 
  Return value:  Size  Location     Type
-                  2   22[COMRAM] int 
+                  2   24[COMRAM] int 
  Registers used:
 		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, prodl, prodh, cstack
  Tracked objects:
@@ -870,6 +870,7 @@ Total ram usage:       18 bytes
  Hardware stack levels required when called:    5
  This function calls:
 		_PWM_DutyCycle1
+		_PWM_DutyCycle2
 		___awtoft
 		___fttol
 		_fuzzy_system_single1
@@ -1107,7 +1108,7 @@ Total ram usage:        2 bytes
  Auto vars:     Size  Location     Type
 		None
  Return value:  Size  Location     Type
-                  2  207[COMRAM] int 
+                  2  209[COMRAM] int 
  Registers used:
 		None
  Tracked objects:
@@ -1159,6 +1160,7 @@ Total ram usage:        9 bytes
 		___fttol
 		___lbtoft
  This function is called by:
+		_main
 		_mcu_init
 		_go_back
 		_right

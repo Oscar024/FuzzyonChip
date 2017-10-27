@@ -6561,7 +6561,8 @@ go_back(100,100);
 else{
 motor_forward();
 PWM_DutyCycle1(a);
-PWM_DutyCycle1(b);
+PWM_DutyCycle2(b);
+
 }
 
 

@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\MCC\AppData\Local\Temp\s46k.obj
+$C:\Users\MCC\AppData\Local\Temp\s44o.obj
 end_init CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
 config CONFIG 0 300000 300000 E 1
@@ -166,28 +166,28 @@ $dist/default/production\FuzzyMCUlineFollower-master.production.obj
 "C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":18 6684 text20 CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":19 6690 text20 CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\common\ftneg.c":20 669C text20 CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2059 669E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2061 669E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2064 669E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2096 669E cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2097 66A0 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2098 66A2 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2099 66A4 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2100 66A6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2103 66A8 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2108 66AA cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2109 66AC cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2110 66AE cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2111 66B0 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2112 66B2 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2113 66B4 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2114 66B6 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2115 66B8 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2116 66BC cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2117 66BE cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2123 66C2 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2124 66C2 cinit CODE
-"C:\Users\MCC\AppData\Local\Temp\s46k.":2125 66C4 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2060 669E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2062 669E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2065 669E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2097 669E cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2098 66A0 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2099 66A2 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2100 66A4 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2101 66A6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2104 66A8 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2109 66AA cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2110 66AC cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2111 66AE cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2112 66B0 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2113 66B2 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2114 66B4 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2115 66B6 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2116 66B8 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2117 66BC cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2118 66BE cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2124 66C2 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2125 66C2 cinit CODE
+"C:\Users\MCC\AppData\Local\Temp\s44o.":2126 66C4 cinit CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":7 66C8 text14 CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":12 66C8 text14 CODE
 "C:\Program Files\Microchip\xc8\v1.33\sources\pic18\plib\PWM\pw1setdc.c":15 66E4 text14 CODE
@@ -553,8 +553,8 @@ defuzzy@i 44 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollowe
 triangular@ux 43 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 mcu_init@i 35 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 _main 6E96 0 CODE 0 text0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
-___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s46k.obj
-start 0 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s46k.obj
+___sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s44o.obj
+start 0 0 CODE 0 init C:\Users\MCC\AppData\Local\Temp\s44o.obj
 ?___ftadd 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___fttol@f1 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___ftmul@f1 D 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -581,7 +581,6 @@ __end_of_getCNY70Value 6B20 0 CODE 0 text15 dist/default/production\FuzzyMCUline
 __end_of_motor_Backforward 65C2 0 CODE 0 text8 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 _motor_forward 65C2 0 CODE 0 text1 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___ftmul@f2 10 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
-_main$1522 E7 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___ftdiv@f2 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Hconfig 30000E 0 CONFIG 0 config dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -589,10 +588,11 @@ __Lconfig 300000 0 CONFIG 0 config dist/default/production\FuzzyMCUlineFollower-
 ?___ftneg 1 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___ftpack 69C0 0 CODE 0 text31 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __size_of_fuzzy_system_single1 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
-_main$1523 EA 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
+_main$1523 E7 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 main@a E1 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 main@b E4 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 PWM_DutyCycle2@DC 32 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
+_main$1524 EA 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___ftdiv@f3 32 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Lbigram 0 0 ABS 0 bigram dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -692,7 +692,7 @@ __CFG_EBTR3$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.
 ___ftge 6892 0 CODE 0 text23 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 _tri_mf 708C 0 CODE 0 text18 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 _out_mf 76A2 0 CODE 0 text22 dist/default/production\FuzzyMCUlineFollower-master.production.obj
-stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s46k.obj
+stackhi 7FF 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __end_of_tri_mf 71AE 0 CODE 0 text18 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 fuzzy_system_single1@w1 56 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 fuzzy_system_single2@w1 56 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -710,7 +710,7 @@ __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\FuzzyMCUlineFoll
 __Htemp 0 0 COMRAM 1 temp dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __size_of_fuzzy_system_single2 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\FuzzyMCUlineFollower-master.production.obj
-stacklo 6F0 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s46k.obj
+stacklo 6F0 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Hinit 0 0 CODE 0 init dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -900,8 +900,8 @@ fuzzy_system_single2@overall_out_mf 578 0 BANK5 1 cstackBANK5 dist/default/produ
 __pcinit 669E 0 CODE 0 cinit dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 ___ftdiv 6BF4 0 CODE 0 text29 dist/default/production\FuzzyMCUlineFollower-master.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s46k.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s46k.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\MCC\AppData\Local\Temp\s44o.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Hconst 0 0 CODE 0 const dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Lconst 0 0 CODE 0 const dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -988,7 +988,7 @@ __Htext25 0 0 ABS 0 text25 dist/default/production\FuzzyMCUlineFollower-master.p
 __Ltext25 0 0 ABS 0 text25 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 _getCNY70Value 6A68 0 CODE 0 text15 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __ptext15 6A68 0 CODE 0 text15 dist/default/production\FuzzyMCUlineFollower-master.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s46k.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __Htext16 0 0 ABS 0 text16 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Ltext16 0 0 ABS 0 text16 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __ptext25 6776 0 CODE 0 text25 dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -1016,7 +1016,7 @@ __Htext29 0 0 ABS 0 text29 dist/default/production\FuzzyMCUlineFollower-master.p
 __Ltext29 0 0 ABS 0 text29 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __ptext19 74BC 0 CODE 0 text19 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __CFG_BORV$3 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s46k.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __ptext29 6BF4 0 CODE 0 text29 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 _OSCCONbits FD3 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __end_of_motor_forward 65CC 0 CODE 0 text1 dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -1028,7 +1028,7 @@ __end_of___ftmul 6DAE 0 CODE 0 text28 dist/default/production\FuzzyMCUlineFollow
 __end_of_OpenPWM1 65DE 0 CODE 0 text6 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __end_of_OpenPWM2 6776 0 CODE 0 text4 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s46k.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\MCC\AppData\Local\Temp\s44o.obj
 SetDCPWM1@DCycle 5 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __CFG_CP1$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __size_of___wmul 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
@@ -1041,18 +1041,18 @@ __CFG_CP2$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.pr
 __pcstackBANK3 300 0 BANK3 1 cstackBANK3 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __CFG_CP3$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 defuzzy@sum1 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s46k.obj
+__accesstop 60 0 ABS 0 - C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __size_of_qualified 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\FuzzyMCUlineFollower-master.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s46k.obj
-intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s46k.obj
+intlevel0 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s44o.obj
+intlevel1 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 defuzzy@out 3B 0 COMRAM 1 cstackCOMRAM dist/default/production\FuzzyMCUlineFollower-master.production.obj
-intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s46k.obj
+intlevel2 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __end_of___awtoft 67BE 0 CODE 0 text25 dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __end_of_linspace 708C 0 CODE 0 text24 dist/default/production\FuzzyMCUlineFollower-master.production.obj
-intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s46k.obj
+intlevel3 0 0 CODE 0 text C:\Users\MCC\AppData\Local\Temp\s44o.obj
 __CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __size_of_PWM_DutyCycle1 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj
 __size_of_PWM_DutyCycle2 0 0 ABS 0 - dist/default/production\FuzzyMCUlineFollower-master.production.obj

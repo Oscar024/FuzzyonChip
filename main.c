@@ -45,7 +45,8 @@ int main()
       else{
           motor_forward();
           PWM_DutyCycle1(a);
-          PWM_DutyCycle1(b);
+          PWM_DutyCycle2(b);
+          
       }
        
       
